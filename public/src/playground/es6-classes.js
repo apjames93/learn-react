@@ -39,7 +39,7 @@ class Person {
       let greeting = super.getGreeting();
   
       if (this.homeLocation) {
-        greeting += ` I am visiting from ${this.homeLocation}.`;
+
       }
   
       return greeting;
