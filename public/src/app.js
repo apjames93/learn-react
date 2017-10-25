@@ -85,7 +85,7 @@ class IndecisionApp extends React.Component {
   const Header = (props) => {
     return (
       <div>
-        <h1>{props.title}</h1>
+        <h1>{props.title} test</h1>
         {props.subtitle && <h2>{props.subtitle}</h2>}
       </div>
     );
